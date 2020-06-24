@@ -49,7 +49,7 @@ Review a basic introduction in section 1: <br>
 \$ sudo systemctl enable pmcd pmlogger <br>
 \$ sudo systemctl start pmcd pmlogger <br>
 #### PCP Extensions
-Perfomance Metric Domain Agents (PMDAs)
+##### Perfomance Metric Domain Agents (PMDAs)
 apache; kvm; memcache; mysql; proc; systemd; weblog
 
 
