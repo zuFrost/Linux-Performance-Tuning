@@ -36,3 +36,21 @@ free; pmap; ps; slabtop; snice; tload; top; uptime; vmstat; watch; <br>
 \$ sudo perf record find / -xdev -name core>/dev/null 2>&1 <br>
 \$ sudo perf report <br>
 ![perf report](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/perf%20report.png) <br>
+### 1.6 Performance Co-Pilot and Tuna
+#### Perfomance Co-Pilot (PCP) Setup
+Install these packages: <br>
+&#9679; pcp <br>
+&#9679; pcp-gui <br>
+&#9679; pcp-webjs <br>
+&#9679; pcp-webapi <br>
+&#9679; pcp-doc <br>
+Review a basic introduction in section 1: <br>
+&#9679; man pcpintro <br>
+\$ sudo systemctl enable pmcd pmlogger <br>
+\$ sudo systemctl start pmcd pmlogger <br>
+#### PCP Extensions
+Perfomance Metric Domain Agents (PMDAs)
+apache; kvm; memcache; mysql; proc; systemd; weblog
+
+
+
