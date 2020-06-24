@@ -21,3 +21,4 @@ ans=hi back to you, elapsed = 4 <br>
 \$ head -4 /tmp/s.out <br>
 ![img](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/head%20-4.png) <br>
 ### 1.4 The proc filesystem
+$ sudo mount -t proc proc /proc <br>
