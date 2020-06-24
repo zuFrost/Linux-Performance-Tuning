@@ -10,7 +10,11 @@ sys     0m17.396s <br>
 ![loop2.sh](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/loop2.sh) <br>
 13597 operations in 10 sec. => 1360 operations/sec <br> 
 <br>
-Response Time. How long it takes to get a response. <br>
+#### Response Time. How long it takes to get a response. <br>
 ![ask.sh](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/ask.sh) ![ans.sh](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/ans.sh)<br>
 \$ ./ask.sh <br>
 ans=hi back to you, elapsed = 4 <br>
+#### The strace Command
+\$ strace -c -o /tmp/s.out ./loop1.sh <br>
+\$ head -4 /tmp/s.out <br>
+![img](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/head%20-4.png) <br>
