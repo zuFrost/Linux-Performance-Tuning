@@ -1,6 +1,7 @@
 # ![Linux-Performance-Tuning](https://www.linkedin.com/learning/linux-performance-tuning?u=2113185) by ![Kevin Dankwardt](https://www.linkedin.com/in/kevindankwardt/?trk=lil_course) in LinkedIN Learning
 
 ## 1. Performance Overview
+### 1.1 What do we mean by performance?
 ### 1.2 Timing techniques
 ![loop1.sh](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/loop1.sh) <br>
 \$ time ./loop1.sh <br>
@@ -20,5 +21,8 @@ ans=hi back to you, elapsed = 4 <br>
 \$ strace -c -o /tmp/s.out ./loop1.sh <br>
 \$ head -4 /tmp/s.out <br>
 ![img](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/head%20-4.png) <br>
+### 1.3 Timing techniques solution
 ### 1.4 The proc filesystem
 $ sudo mount -t proc proc /proc <br>
+### 1.5 Packages for performance
+
