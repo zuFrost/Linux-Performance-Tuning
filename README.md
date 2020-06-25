@@ -133,6 +133,21 @@ $ sudo ./diskcache.sh <br>
 ## 4. Disk Bottlenecks
 ### 4.1 Hard disks and SSD behavior
 ### 4.2 sar and atop tools and disk utilization
+####sar<br>
+&#9679; B - paging statistic <br>
+&#9679; b - I/O and transfer rate <br>
+&#9679; d - activity for each block device <br>
+&#9679; p - for device name instead of major/minor number<br>
+\$ sudo sar -d 5 2 <br>
+\$ sudo sar -dp 2 2 <br>
+\$ sudo sar -B 2 2 <br>
+\$ sudo sar -b 5 2 <br>
+
+#### atop
+\$ atop <br>
+![atop](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/atop.png) <br>
+
+
 ### 4.3 Filesystem types and performance
 ### 4.4 Challenge: Disk bottlenecks
 ### 4.5 Solution: Disk bottlenecks
