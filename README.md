@@ -130,3 +130,10 @@ $ sudo ./diskcache.sh <br>
 
 ### 3.7 Solution: Finding memory bottlenecks
 
+## 4. Disk Bottlenecks
+### 4.1 Hard disks and SSD behavior
+### 4.2 sar and atop tools and disk utilization
+### 4.3 Filesystem types and performance
+### 4.4 Challenge: Disk bottlenecks
+### 4.5 Solution: Disk bottlenecks
+
