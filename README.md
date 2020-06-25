@@ -84,11 +84,35 @@ Example scripts located in
 ### 2.2 sar for CPU(Viewed)
 System Activity Reporter (sar) <br>
 ![sar](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/sar.png) <br>
+\$ sar -q 5 3 <br>
+\$ sar -u 5 3 <br>
+\$ sar -u ALL 5 3 <br>
 
 ### 2.3 /proc/cpuinfo(Viewed)
+\$ more /proc/cpuinfo <br>
+![/proc/cpuinfo](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/more%20_proc_cpuinfo.png) <br>
+\$ sudo lshw - Linux Hardware Lister <br>
+\$ lscpu <br>
 
 ### 2.4 Scheduling: nice, priorities, and process classes
+Other; Batch; Idle; Real time <br>
 
 ### 2.5 Throughput vs. response time
 
 ### 2.6 The Linux kernel and responsiveness
+
+## 3. Memory Bottlenecks
+## 3.1 What is a memory leak?
+
+## 3.2 /proc/meminfo, free, and swap space
+
+## 3.3 top and htop for memory usage
+
+## 3.4 CPU caches and page caches
+
+## 3.5 Page sizes and page faults
+
+## 3.6 Challenge: Finding memory bottlenecks
+
+## 3.7 Solution: Finding memory bottlenecks
+
