@@ -120,6 +120,9 @@ Other; Batch; Idle; Real time <br>
 ![top](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/htop.png) <br>
 
 ### 3.4 CPU caches and page caches
+![diskcachw](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/diskcache.sh) <br>
+$ sudo ./diskcache.sh <br> 
+пример скорости работы с кешем и без него. 1 очистить кэш, 0 - не очишать кешь <br>
 
 ### 3.5 Page sizes and page faults
 
