@@ -102,17 +102,17 @@ Other; Batch; Idle; Real time <br>
 ### 2.6 The Linux kernel and responsiveness
 
 ## 3. Memory Bottlenecks
-## 3.1 What is a memory leak?
+### 3.1 What is a memory leak?
 
-## 3.2 /proc/meminfo, free, and swap space
+### 3.2 /proc/meminfo, free, and swap space
 
-## 3.3 top and htop for memory usage
+### 3.3 top and htop for memory usage
 
-## 3.4 CPU caches and page caches
+### 3.4 CPU caches and page caches
 
-## 3.5 Page sizes and page faults
+### 3.5 Page sizes and page faults
 
-## 3.6 Challenge: Finding memory bottlenecks
+### 3.6 Challenge: Finding memory bottlenecks
 
-## 3.7 Solution: Finding memory bottlenecks
+### 3.7 Solution: Finding memory bottlenecks
 
