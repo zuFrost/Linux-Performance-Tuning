@@ -149,6 +149,11 @@ $ sudo ./diskcache.sh <br>
 
 
 ### 4.3 Filesystem types and performance
+![Linux filesystems](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/Linux%20filesystems.png) <br>
 ### 4.4 Challenge: Disk bottlenecks
 ### 4.5 Solution: Disk bottlenecks
+## 5. Next steps
+&#9679; PCP (Perfomance Co-Pilot) <br>
+&#9679; BPF (Berkley Packet Filter) <br>
+&#9679; sar <br>
 
