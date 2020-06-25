@@ -105,8 +105,19 @@ Other; Batch; Idle; Real time <br>
 ### 3.1 What is a memory leak?
 
 ### 3.2 /proc/meminfo, free, and swap space
+\$ more /proc/meminfo <br>
+![proc meminfo](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/proc%20meminfo.png) <br>
+\$ free <br>
+![free](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/free.png) <br>
+\$ swapon -s <br>
+![swapon](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/swapon.png) <br>
+\$ sudo swapoff -a 
 
 ### 3.3 top and htop for memory usage
+\$ top <br>
+![top](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/top.png) <br>
+\$ htop <br>
+![top](https://github.com/zuFrost/Linux-Performance-Tuning/blob/master/img/htop.png) <br>
 
 ### 3.4 CPU caches and page caches
 
